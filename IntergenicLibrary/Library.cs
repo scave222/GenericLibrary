@@ -58,9 +58,9 @@ namespace IntergenicLibrary
         {
             GetDateReturn();
             if(DaysR > 14){
-                return $"{GetName()} is a defaulter,hasn't returned {GetBook()} Collected on {DateIssuedDetails} ";
+                return $"{GetName()} is a defaulter,hasn't returned {GetBook()}, book issued on {DateIssuedDetails} ";
             }
-            return $"{GetName()} Is not a defaulter";
+            return $"";
            
         }
 

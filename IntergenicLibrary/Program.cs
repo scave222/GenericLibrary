@@ -13,6 +13,7 @@ namespace IntergenicLibrary
             Student student2= new Student("Banky", 2000, "23DE");
             Student student3 = new Student("Tolu", 2000, "23DE");
             Student student4 = new Student("Grace", 2000, "23DE");
+
             Book book = new Book("Eze goes to school", "456");
             Book book1 = new Book("Mike goes to school", "756");
             Book book2 = new Book("Soji goes to school", "086");
@@ -42,10 +43,10 @@ namespace IntergenicLibrary
              
 
              foreach(var l in lib.GetAllDefaulters()){
-                     Console.WriteLine(l);
+              
+              Console.WriteLine(l);        
              }
 
-         //dateissued.dtrDate;
         }
     }
 }
